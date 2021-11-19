@@ -11,6 +11,7 @@ const books = [
   { title: 'La lune seule le sait', id: 63541, rented: 43 },
   { title: 'Voyage au centre de la Terre', id: 4656388, rented: 38 },
   { title: 'Guerre et Paix', id: 748147, rented: 19 },
+  { title: 'Clc', id: 123456, rented: 0 }
 ];
 
 /* Question 1 */
