@@ -1,7 +1,7 @@
 number = prompt("Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ?");
 
 function pyramide(nb) {
-
+	for (let count = 1; count <=nb; count++) {
 		let floor = '';
 		for ( let space = count; space <=nb; space++) {
 			floor += ' ';
@@ -11,6 +11,6 @@ function pyramide(nb) {
 		};
 		console.log(floor)
 	}
-
+}
 
 pyramide(number);
