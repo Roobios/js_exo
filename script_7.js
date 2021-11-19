@@ -14,7 +14,7 @@ function majuscule(input) {
 
 function fornite(input) {
 
-	if (input.indexOf("Fornite") != -1 || input.indexOf("fornite") != -1) {
+	if (input.indexOf("Fornite") || input.indexOf("fornite")) {
 		return input;
 	};
 }
